@@ -26,8 +26,3 @@
  - Integração com Api: fetch
  - Components React
  - Funções Javascript
-
-## Imagens
-
-
-

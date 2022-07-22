@@ -1,0 +1,102 @@
+.listVertical {
+    margin-bottom: 30px;
+}
+
+.listVertical h2 {
+  font-size: 35px;
+  margin: 0 0 0 35px;
+}
+
+.listRowArea--vertical {
+    overflow-x: hidden;
+    padding-left: 20px;
+}
+
+.listRow--vertical {
+  transition: all ease 0.5s;
+}
+
+.itemRow--vertical {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    cursor: pointer;
+}
+
+.itemRow--vertical img {
+    display: block;
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+    border-radius: 20px;
+}
+
+.itemDetails--vertical {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.itemDetails--vertical:hover {
+    opacity: 1;
+}
+
+
+.itemDetails--vertical h1 {
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap; 
+    width: 280px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    text-align: center;
+}
+
+.itemDetails--vertical p {
+    font-size: 16px;
+    margin-top: 5px;
+    white-space: nowrap; 
+    width: 280px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    text-align: center;
+}
+
+.arrow-right--vertical,
+.arrow-left--vertical {
+    position: absolute;
+    margin-top: 150px;
+    width: 40px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.arrow-left--vertical {
+    left: 0;
+}
+
+.arrow-right--vertical {
+    right: 0;
+}
+
+.listVertical:hover .arrow-left--vertical,
+.listVertical:hover .arrow-right--vertical {
+    opacity: 1;
+}

@@ -1,0 +1,51 @@
+.banner {
+    height: 100vh;
+}
+
+.banner--vertical {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #000 10%, transparent 90%);
+}
+
+.banner--horizontal {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #000 10%, transparent 90%);
+}
+
+.bannner--info {
+    padding-top: 150px;
+    margin-left: 100px;
+}
+
+.bannner--info h1{
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bannner--info p{
+    margin-top: 15px;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+}
+
+.bannner--info a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #1ed6e4;
+    color: #fff;
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+
+.bannner--info a:hover {
+    opacity: 0.8;
+}
